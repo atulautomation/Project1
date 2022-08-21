@@ -13,7 +13,10 @@ public class MainMethod {
 		list.add(new Student(76, "dk", 43));
 		list.add(new Student(3, "sk", 79));
 		list.add(new Student(8, "dp", 35));
-		
+		list.add(new Student(1, "anu", 78));
+		list.add(new Student(4, "pranav", 87));
+		list.add(new Student(76, "dk", 43));
+		list.add(new Student(3, "sk", 79));
 		Code(list);
 
 
