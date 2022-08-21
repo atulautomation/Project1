@@ -18,6 +18,25 @@ public class Student implements Comparable<Student>
 
 	
 	@Override
+	public int compareToNew(Student s)
+	{
+		if(rn>s.rn)
+			return 1;
+		else if(rn<s.rn)
+			return -1;
+		else
+		{
+			if(marks>s.marks)
+				return 1;
+			else if(marks<s.marks)
+				return -1;
+			else
+				
+				return name.compareTo(s.name);
+				
+		}
+
+@Override
 	public int compareTo(Student s)
 	{
 		if(rn>s.rn)
@@ -35,6 +54,7 @@ public class Student implements Comparable<Student>
 				return name.compareTo(s.name);
 				
 		}
+	
 		
 	}
 	
